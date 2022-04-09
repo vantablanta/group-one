@@ -10,20 +10,25 @@ import { TasksClass } from 'src/app/tasks-class';
 export class TasksComponent implements OnInit {
 
 tasks: TasksClass[] = [
-  { name :'Go out with firends ',
-    description :'Metting up with  afew friend sfor drinks ',
-    date : new Date()
+  { name :'Go out with friends ',
+    description :'Meeting up with  afew friend for drinks ',
+    date : new Date(),
+    completed: false 
   },
   { name :'Make Supper ',
-    description :'Prepare Supper for friends  ',
-    date : new Date()
+    description :'Prepare Supper for friends',
+    date : new Date(),
+    completed: false 
   },
   { name :'Play a game',
     description :'Have game night with rour friends  ',
-    date : new Date()
+    date : new Date(),
+    completed: false 
   }
 ]
-
+ checked(){
+    
+ }
 
 
 
